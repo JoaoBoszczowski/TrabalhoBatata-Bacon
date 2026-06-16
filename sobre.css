@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ad2323;
+  color: #ffffff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  max-height: 120px;
+  background-color: white;
+  color: rgb(255, 0, 0);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.imagem {
+  width: 100px;
+  height: 100px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  font-size: 18px;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #00aced;
+}
+
+main {
+  padding: 40px 0;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+.card {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  padding: 20px;
+  flex: 1;
+  width: 450px;
+  height: 450px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  background-color:white;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
